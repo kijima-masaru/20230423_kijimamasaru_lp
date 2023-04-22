@@ -1,0 +1,516 @@
+.header {
+    display: flex;
+    max-width: 1500px;
+    min-width: 1000px;
+}
+
+.header__img {
+    height: 30px;
+    width: auto;
+}
+
+.header__right-ul {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 170%;
+}
+
+.header__right-ul li {
+    margin-left: 1em;
+    color: gray;
+}
+
+.main {
+    position: relative;
+    max-width: 1500px;
+    min-width: 1000px;
+}
+
+.main__img {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.main__title {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-size: 55px;
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.span__main1 {
+    color: darkcyan;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.main__text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.main__text-top {
+    font-size: 23px;
+    font-weight: bold;
+    color: #b00084;
+}
+
+.span__main2 {
+    color: darkcyan;
+}
+
+.main__text-bottom {
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.news {
+    max-width: 1500px;
+    min-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.news__title {
+    position: relative;
+    left: 20%;
+}
+
+.news__title-top {
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    top: 15px;
+}
+
+.news__title-bottom {
+    color: gray;
+}
+
+.news__content {
+    list-style: none;
+    position: relative;
+    width: 60%;
+    left: 20%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 25px 0;
+}
+
+.news__content li {
+    padding: 15px 0;
+    border-bottom: 1px double gray;
+    color: gray;
+
+}
+
+.news__span {
+    padding: 5px 0;
+    color: white;
+    border-radius: 30px;
+    background: mediumvioletred;
+}
+
+.about {
+    max-width: 1500px;
+    min-width: 1000px;
+    background-color: rgb(236, 236, 236);
+    height: 450px;
+}
+
+
+.about__title {
+    position: relative;
+    top: 30px;
+}
+
+.about__title-top {
+    text-align: center;
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+}
+
+.about__title-bottom {
+    text-align: center;
+    color: gray
+}
+
+.about__content {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+.about__text {
+    margin: 0 auto 0 0;
+    padding-left: 15%;
+    color: gray;
+}
+
+.about__img {
+    width: 30%;
+    margin: 0 0 0 auto;
+    padding-right: 15%;
+}
+
+.about__img img {
+    width: 100%;
+}
+
+.service {
+    display: block;
+    max-width: 1500px;
+    min-width: 1000px;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding-bottom: 50px;
+}
+
+.service__title-top {
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    top: 15px;
+}
+
+.service__title-bottom {
+    color: gray;
+}
+
+.service__card {
+    display: flex;
+}
+
+.service__card-left {
+    width: 460px;
+    height: 400px;
+    background-color: rgb(181, 0, 96);
+}
+
+.left__img {
+    width: 130px;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: 165px;
+}
+
+.left__text-top {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 195px;
+}
+
+.left__text-bottom {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.service__right-top {
+    width: 460px;
+    height: 200px;
+    background-color: rgb(171, 66, 147);
+}
+
+.service__right-bottom {
+    width: 460px;
+    height: 200px;
+    background-color: rgb(210, 127, 189);
+}
+
+.right__img {
+    width: 130px;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.right__text-top {
+    color: white;
+    position: relative;
+    left: 155px;
+    bottom: 120px;
+}
+
+.right__text-bottom {
+    color: white;
+    position: relative;
+    left: 155px;
+    bottom: 120px;
+}
+
+.blog {
+    max-width: 1500px;
+    min-width: 1000px;
+    background-color: rgb(236, 236, 236);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog__title {
+    position: relative;
+    left: 10%;
+}
+
+.blog__title-top {
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    top: 15px;
+}
+
+.blog__title-bottom {
+    color: gray;
+}
+
+.blog__flex {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blog__card {
+    width: 360px;
+    margin: 10px auto 10px auto;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 3px 10px rgba(239, 239, 239, 0.2);
+    background-color: white;
+}
+
+.blog__card-img img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.blog__content {
+    padding: 10px 25px;
+    position: relative;
+    left: 15px;
+    color: grey;
+}
+
+.blog__tag {
+    display: flex;
+    position: relative;
+    padding: 10px 25px;
+}
+
+.blog__text {
+    width: 75px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    background-color: #b00084;
+    border-top-left-radius: 30px;
+    bottom: 359px;
+}
+
+.blog__text-front {
+    color: white;
+    position: relative;
+    top: 7px;
+}
+
+.blog__tag-left {
+    margin: 10px auto 10px 10px;
+    color: grey;
+}
+
+.blog__tag-right {
+    margin: 10px 10px 10px auto;
+    color: gray;
+}
+
+.blog__btn {
+    width: 200px;
+    padding: 10px 0;
+    color: #b00084;
+    background-color: white;
+    border-color: #b00084;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: 100px auto 0;
+    display: block;
+}
+
+.company {
+    max-width: 1500px;
+    min-width: 1000px;
+    padding: 100px;
+}
+
+.company__title {
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+.company__title-top {
+    color: #b00084;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    top: 15px;
+}
+
+.company__title-bottom {
+    color: gray;
+}
+
+.company__table {
+    position: relative;
+    top: 10px;
+    left: 20%;
+    width: 800px;
+}
+
+.company__th {
+    color: rgb(115, 115, 115);
+    padding: 15px;
+    width: 30%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #eee;
+    font-weight: bold;
+    text-align: left;
+}
+
+.company__td {
+    color: gray;
+    padding: 15px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.company__th1 {
+    color: rgb(115, 115, 115);
+    padding: 15px;
+    width: 150px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #eee;
+    font-weight: bold;
+    text-align: left;
+}
+
+.company__td1 {
+    color: gray;
+    padding: 15px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.information {
+    max-width: 1500px;
+    min-width: 1000px;
+    display: flex;
+    width: 100%;
+}
+
+.information__left {
+    width: 50%;
+    height: 300px;
+    background-image: url("../img/recruit.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.information__left-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    top: 95px;
+}
+
+.information__right {
+    width: 50%;
+    height: 300px;
+    background-image: url("../img/interview.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.information__right-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    top: 95px;
+}
+
+.mail {
+    max-width: 1500px;
+    min-width: 1000px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mail__content {
+    position: relative;
+    top: 90px;
+}
+
+.mail__title {
+    color: gray;
+    font-size: 15px;
+}
+
+.title__bow {
+    color: #b00084;
+    font-size: 35px;
+}
+
+.mail__btn {
+    font-size: 13px;
+    color: white;
+    width: 200px;
+    padding: 15px 15px;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff3aa0, #b00084);
+    box-shadow: 0 5px 0 rgb(131, 0, 105);
+    display: block;
+}
+
+.mail__img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 75px;
+    bottom: 34px;
+}
+
+.footer {
+    max-width: 1500px;
+    min-width: 1000px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 1px;
+    margin: 0;
+}
+
+.footer__text {
+    color: gray;
+}
